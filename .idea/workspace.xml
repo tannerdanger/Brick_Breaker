@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ada73bd3-7d20-47bd-ab97-f275a482f2e6" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Upgrade.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/states/BaseState.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/states/GameOverState.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/states/TitleState.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Breaker.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Breaker.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Brick.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Brick.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paddle.lua" beforeDir="false" afterPath="$PROJECT_DIR$/Paddle.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.lua" beforeDir="false" afterPath="$PROJECT_DIR$/main.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/states/PlayState.lua" beforeDir="false" afterPath="$PROJECT_DIR$/states/PlayState.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/states/ServeState.lua" beforeDir="false" afterPath="$PROJECT_DIR$/states/ServeState.lua" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.82800984">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="main.lua" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/main.lua">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="264">
+                  <caret line="32" column="12" lean-forward="true" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+                  <folding>
+                    <element signature="n#love.load#0" expanded="true" />
+                    <element signature="e#724#981#1" />
+                    <element signature="e#1099#1214#0" />
+                    <element signature="e#3120#3252#0" expanded="true" />
+                    <element signature="n#love.draw#0" expanded="true" />
+                    <element signature="n#displayFPS#0" expanded="true" />
+                    <element signature="n#displayLives#0" expanded="true" />
+                    <element signature="n#displayScore#0" expanded="true" />
+                    <element signature="n#love.resize#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Brick.lua" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Brick.lua">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="264">
+                  <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+                  <folding>
+                    <element signature="n#Brick:hit#0" expanded="true" />
+                    <element signature="n#Brick:render#0" expanded="true" />
+                    <element signature="n#Brick:upgradeRNG#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Upgrade.lua" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Upgrade.lua">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-718">
+                  <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+                  <folding>
+                    <element signature="n#Breaker:init#0" expanded="true" />
+                    <element signature="n#Upgrade:render#0" expanded="true" />
+                    <element signature="n#Breaker:collides#0" expanded="true" />
+                    <element signature="n#Upgrade:activate#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PlayState.lua" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/states/PlayState.lua">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="248">
+                  <caret line="143" selection-start-line="143" selection-end-line="143" selection-end-column="78" />
+                  <folding>
+                    <element signature="n#PlayState:init#0" expanded="true" />
+                    <element signature="e#855#1290#0" />
+                    <element signature="e#2428#2780#0" />
+                    <element signature="n#PlayState:render#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ServeState.lua" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/states/ServeState.lua">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="485">
+                  <caret line="57" selection-start-line="57" selection-end-line="57" />
+                  <folding>
+                    <element signature="n#ServeState:init#0" expanded="true" />
+                    <element signature="n#ServeState:update#0" expanded="true" />
+                    <element signature="n#ServeState:render#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Breaker.lua" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Breaker.lua">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="701">
+                  <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+                  <folding>
+                    <element signature="n#Breaker:init#0" expanded="true" />
+                    <element signature="n#Breaker:reset#0" expanded="true" />
+                    <element signature="n#Breaker:update#0" expanded="true" />
+                    <element signature="n#Breaker:render#0" expanded="true" />
+                    <element signature="n#Breaker:collides#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GameOverState.lua" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/states/GameOverState.lua">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="221">
+                  <caret line="39" column="74" selection-start-line="39" selection-start-column="74" selection-end-line="39" selection-end-column="74" />
+                  <folding>
+                    <element signature="n#TitleState:init#0" expanded="true" />
+                    <element signature="n#TitleState:update#0" expanded="true" />
+                    <element signature="n#GameOverState:render#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="main.lua" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/main.lua">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="432">
+                  <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+                  <folding>
+                    <element signature="n#love.load#0" expanded="true" />
+                    <element signature="e#1569#1664#0" />
+                    <element signature="e#1598#1713#0" />
+                    <element signature="n#love.update#0" expanded="true" />
+                    <element signature="n#love.keypressed#0" expanded="true" />
+                    <element signature="n#love.draw#0" expanded="true" />
+                    <element signature="n#displayFPS#0" expanded="true" />
+                    <element signature="n#displayLives#0" expanded="true" />
+                    <element signature="n#displayScore#0" expanded="true" />
+                    <element signature="n#love.resize#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="push.lua" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/push.lua">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="585">
+                  <caret line="224" column="21" selection-start-line="224" selection-start-column="21" selection-end-line="224" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Lua Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ball</find>
+      <find>state</find>
+      <find>setColor</find>
+      <find>setcolor</find>
+      <find>print</find>
+      <find>displayFPS</find>
+      <find>score</find>
+      <find>screen</find>
+      <find>bricks</find>
+      <find>gBricks</find>
+      <find>gBri</find>
+      <find>glives</find>
+      <find>rng</find>
+      <find>self.speed</find>
+      <find>:p</find>
+      <find>reset</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Brick.lua" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/states/PlayState.lua" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Upgrade.lua" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/main.lua" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/push.lua" />
+        <option value="$PROJECT_DIR$/class.lua" />
+        <option value="$PROJECT_DIR$/love.conf.lua" />
+        <option value="$PROJECT_DIR$/conf.lua" />
+        <option value="$PROJECT_DIR$/states/BaseState.lua" />
+        <option value="$PROJECT_DIR$/StateMachine.lua" />
+        <option value="$PROJECT_DIR$/Paddle.lua" />
+        <option value="$PROJECT_DIR$/Breaker.lua" />
+        <option value="$PROJECT_DIR$/states/TitleState.lua" />
+        <option value="$PROJECT_DIR$/states/PlayState.lua" />
+        <option value="$PROJECT_DIR$/states/ServeState.lua" />
+        <option value="$PROJECT_DIR$/states/GameOverState.lua" />
+        <option value="$PROJECT_DIR$/main.lua" />
+        <option value="$PROJECT_DIR$/Brick.lua" />
+        <option value="$PROJECT_DIR$/Upgrade.lua" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1862" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="brickbreaker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="brickbreaker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="brickbreaker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="brickbreaker" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="brickbreaker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="brickbreaker" type="462c0819:PsiDirectoryNode" />
+              <item name="states" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/brickbreaker.iml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Run In Love2d" type="#com.sylvanaar.idea.Lua.run.LuaConfigurationType" factoryName="Lua Script">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="W:\tools\LOVE\love.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="ALTERNATE_INTERPRETER" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/" />
+      <option name="PARAMETERS" value="" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ada73bd3-7d20-47bd-ab97-f275a482f2e6" name="Default" comment="" />
+      <created>1530729686532</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530729686532</updated>
+      <workItem from="1530729689792" duration="57605000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="57605000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1862" height="1096" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50108343" side_tool="true" visible="true" weight="0.25993884" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49891657" visible="true" weight="0.25993884" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6460055" visible="true" weight="0.11809318" />
+      <window_info anchor="right" id="LuaJ" />
+      <window_info anchor="right" id="Database" />
+      <window_info id="Structure" order="1" sideWeight="0.3539945" side_tool="true" visible="true" weight="0.11809318" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49945828" weight="0.39959225" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2.lua">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+          <folding>
+            <element signature="n#include_helper#0" expanded="true" />
+            <element signature="n#include#0" expanded="true" />
+            <element signature="n#clone#0" expanded="true" />
+            <element signature="n#new#0" expanded="true" />
+            <element signature="e#2665#2764#0" expanded="true" />
+            <element signature="e#2936#3043#0" expanded="true" />
+            <element signature="e#3048#3118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/love.conf.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/push.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="224" column="21" selection-start-line="224" selection-start-column="21" selection-end-line="224" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="n#love.conf#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Paddle.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="n#Paddle:update#0" expanded="true" />
+            <element signature="n#Paddle:render#0" expanded="true" />
+            <element signature="n#Paddle:&#10;&#10;--TODO: Changes if powerup is applied#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/states/TitleState.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding>
+            <element signature="n#TitleState:init#0" expanded="true" />
+            <element signature="n#TitleState:render#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StateMachine.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="54" column="35" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="35" />
+          <folding>
+            <element signature="n#StateMachine:init#0" expanded="true" />
+            <element signature="n#StateMachine:update#0" expanded="true" />
+            <element signature="n#StateMachine:render#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/states/BaseState.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/states/ServeState.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="n#ServeState:init#0" expanded="true" />
+            <element signature="n#ServeState:update#0" expanded="true" />
+            <element signature="n#ServeState:render#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Breaker.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="701">
+          <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+          <folding>
+            <element signature="n#Breaker:init#0" expanded="true" />
+            <element signature="n#Breaker:reset#0" expanded="true" />
+            <element signature="n#Breaker:update#0" expanded="true" />
+            <element signature="n#Breaker:render#0" expanded="true" />
+            <element signature="n#Breaker:collides#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/states/GameOverState.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="39" column="74" selection-start-line="39" selection-start-column="74" selection-end-line="39" selection-end-column="74" />
+          <folding>
+            <element signature="n#TitleState:init#0" expanded="true" />
+            <element signature="n#TitleState:update#0" expanded="true" />
+            <element signature="n#GameOverState:render#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="32" column="12" lean-forward="true" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+          <folding>
+            <element signature="n#love.load#0" expanded="true" />
+            <element signature="e#724#981#1" />
+            <element signature="e#1099#1214#0" />
+            <element signature="e#3120#3252#0" expanded="true" />
+            <element signature="n#love.draw#0" expanded="true" />
+            <element signature="n#displayFPS#0" expanded="true" />
+            <element signature="n#displayLives#0" expanded="true" />
+            <element signature="n#displayScore#0" expanded="true" />
+            <element signature="n#love.resize#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Brick.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <element signature="n#Brick:hit#0" expanded="true" />
+            <element signature="n#Brick:render#0" expanded="true" />
+            <element signature="n#Brick:upgradeRNG#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/states/PlayState.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="143" selection-start-line="143" selection-end-line="143" selection-end-column="78" />
+          <folding>
+            <element signature="n#PlayState:init#0" expanded="true" />
+            <element signature="e#855#1290#0" />
+            <element signature="e#2428#2780#0" />
+            <element signature="n#PlayState:render#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Upgrade.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-718">
+          <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+          <folding>
+            <element signature="n#Breaker:init#0" expanded="true" />
+            <element signature="n#Upgrade:render#0" expanded="true" />
+            <element signature="n#Breaker:collides#0" expanded="true" />
+            <element signature="n#Upgrade:activate#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>brickbreaker</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>LuaJ</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

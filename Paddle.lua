@@ -11,12 +11,15 @@ function Paddle:init(x, y, width, height)
     self.x = x
     self.y = y
     self.width = width
+    self.defW = width
     self.height = height
     self.dy = 0
-    self.speed = 200
+    self.isWide = false
+
 end
 
 function Paddle:update(dt)
+
     if self.dx < 0 then --moving left left
         self.x = math.max(0, self.x + self.dx * dt)
     else
@@ -25,7 +28,13 @@ function Paddle:update(dt)
 end
 
 function Paddle:render()
+
     love.graphics.rectangle('fill', self.x, self.y, self.width, self.height, 3)
+end
+
+function Paddle:reset()
+    self.isWide = false
+    self.width = self.defW
 end
 
 --TODO: Changes if powerup is applied

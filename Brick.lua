@@ -8,9 +8,8 @@
 
 Brick = Class{}
 
-BLUE = { 0, 0, 128 }
-RED = {255, 0, 0 }
-GREEN = { 0, 128, 0}
+
+UPGRADES = {}
 --TODO: Create states, so each brick has to be hit a certain amount of times that changes when a brick is hit
 function Brick:init(x, y, width, height, colorNum)
     self.x = x
@@ -26,6 +25,7 @@ function Brick:init(x, y, width, height, colorNum)
     else
         self.activeColor = BLUE
     end
+
 end
 
 
@@ -48,6 +48,19 @@ function Brick:render()
 
     love.graphics.rectangle('fill', self.x, self.y, self.width, self.height)
 
+end
+
+--randomly applies game modifiers after a brick is broken
+function Brick:tryRNG()
+    local rand = love.math.random(2,4) --1/5 chance of an upgrade
+    if rand == 3 then
+        gUpgrade.x = self.x
+        gUpgrade.y = self.y
+        gUpgrade.active = true
+    end
+
+
 
 end
+
 
