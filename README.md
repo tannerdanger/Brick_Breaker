@@ -9,7 +9,7 @@
 </div>
 
 
-This game was made as a hobby project to learn Lua and basic game development. It uses the simple and lightweight Love2d framework for basic game-loop timing and rendering.
+This game was made as a hobby project to learn Lua and basic game development. It uses the simple and lightweight Love2d framework for basic game-loop timing and rendering. It forces a lower resolution to purposefully emulate a retro-gaming look and feel.
 
 This program incorporates:
 * Scripting
